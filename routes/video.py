@@ -5,7 +5,7 @@ from models.video import Video
 from utils.video_utils import get_video_duration
 from utils.chunker import split_and_store_chunks
 from bson import ObjectId
-from utils import mongo_serializer
+
 
 router = APIRouter(prefix="/videos", tags=["Videos"])
 

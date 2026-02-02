@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pycharm / VSCode
+.idea/
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# Database files
+*.sqlite3
+
+# Logs
+*.log
+
+# Static files / uploads (optional, if you store uploads locally)
+uploads/
+media/
+staticfiles/
+
+# Docker files (if any)
+docker-compose.override.yml
+*.env.dev
+
+# MacOS
+.DS_Store
+
+# Linux
+*~
+
+# Other temporary files
+*.tmp
+*.swp
